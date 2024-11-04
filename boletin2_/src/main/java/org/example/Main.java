@@ -1,13 +1,10 @@
-package org.example;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class Exer1Boletin2 {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Probando github ");
 
+        int base = 4;
+        int altura = 3;
 
-        }
+        int area = base * altura;
+        System.out.println("El area del triangulo es " + area);
     }
+}
