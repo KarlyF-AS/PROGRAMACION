@@ -17,13 +17,6 @@ public class CorreccionExamen2 {
         int [] duplicados = duplicarArray(numeros);
         System.out.println(duplicados[3]);
         //----------------------------------------------------------------------
-        int contador = 0;
-        int x = 10;
-        while (x>0){
-            x-=3;
-            contador++;
-        }
-        System.out.println(contador);
         /**
          *
          */
@@ -33,6 +26,18 @@ public class CorreccionExamen2 {
         //   2            4
         //   3            1
         //   4           -2
+
+        int contador = 0;
+        int x = 10;
+        while (x>0) {
+            x -= 3;
+            contador++;
+        }
+        System.out.println(contador);
+        String [] frutas = {"mazá", "laranxa", "platano"};
+        String [] copiaFrutas = new String [frutas.length];
+        for (int i= frutas.length-1; i>0; i--)
+            copiaFrutas[i] = frutas [i];
 //-----------------------------------------------------------------------------------------
     }
     public static int [] duplicarArray (int [] orixinal){

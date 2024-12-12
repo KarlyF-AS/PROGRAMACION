@@ -2,17 +2,14 @@
  * Porgrama para ver la disponibilidad de habitaciones de un hotel
  *
  */
-public class ExArrays3 {
+/*public class ExArrays3 {
     /**
      * Funcion principal
      * @param args parametros del hotel
      */
+/*
     public static void main(String[] args) {
 
-        /**
-         *
-         *
-         */
         String hotel [][] = new String [4][6];
         rexistraUsuario (hotel, "Pepe Gomez", 23);
         rexistraUsuario (hotel, "Amalia Sanz", 33);
@@ -56,3 +53,4 @@ public class ExArrays3 {
         h [pranta][hab] = null;
     }
 }
+*/
