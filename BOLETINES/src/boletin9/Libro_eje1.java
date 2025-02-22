@@ -29,5 +29,3 @@ public class Libro_eje1 {
         this.numPaginas = numPaginas;
     }
 }
-
-
