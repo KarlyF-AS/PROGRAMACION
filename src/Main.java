@@ -1,3 +1,5 @@
+package src;
+
 public class Main {
     public static void main(String[] args) {
         String[]habilidades = {"cavar", "salto olimpico","voar"};
@@ -48,6 +50,10 @@ public class Main {
         System.out.println(CuentaCorriente.);
         CuentaCorriente contaManuel = new CuentaCorriente("0111", "00000025R", "1032");
         System.out.println(CuentaCorriente);
+
+        Lista2 lista2 = new Lista2();
+        lista.engadirUltimo(5);
+        lis
         /*
          todo
          1-getters y setters

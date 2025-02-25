@@ -1,3 +1,5 @@
+package src;
+
 public class Punto {
     private double x;
     private double y;

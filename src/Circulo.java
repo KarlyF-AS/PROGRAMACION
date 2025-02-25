@@ -1,3 +1,5 @@
+package src;
+
 public class Circulo extends Punto{ //crea una clase circulo que hereda todo de la clase punto
 
     //declaración de propiedades

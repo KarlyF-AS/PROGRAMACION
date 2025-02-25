@@ -1,3 +1,5 @@
+package src;
+
 public class Cubo extends Punto {
     private Punto C;
     private double lado;
