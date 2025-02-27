@@ -1,6 +1,8 @@
 package src;
 
-public class Cadrado extends FiguraXeometrica{
+import src.clase_abstracta_FiguraXeometricas.FiguraXeometrica;
+
+public class Cadrado extends FiguraXeometrica {
     private double lado;
 
     public Cadrado(double l){

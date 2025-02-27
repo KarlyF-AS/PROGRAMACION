@@ -2,7 +2,8 @@
  * @autor: Karly Albarràn
  */
 
-package src;
+package src.clase_abstracta_FiguraXeometricas;
+
 public class PuntoCentro extends PuntoBase {
 
     // Constructor por defecto

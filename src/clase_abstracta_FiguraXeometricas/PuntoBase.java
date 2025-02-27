@@ -1,7 +1,7 @@
 /**
  * @autor: Karly Albarràn
  */
-package src;
+package src.clase_abstracta_FiguraXeometricas;
 
 // Clase abstracta PuntoBase
 public abstract class PuntoBase {

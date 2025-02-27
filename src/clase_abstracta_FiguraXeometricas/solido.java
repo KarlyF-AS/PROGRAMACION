@@ -1,4 +1,4 @@
-package src;
+package src.clase_abstracta_FiguraXeometricas;
 
 public abstract class solido extends FiguraXeometrica {
     public solido() {

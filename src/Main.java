@@ -1,5 +1,9 @@
 package src;
 
+import src.clase_abstracta_Animal.Canguro;
+import src.clase_abstracta_FiguraXeometricas.PuntoCentro;
+import src.clase_abstracta_FiguraXeometricas.solido;
+
 public class Main {
     public static void main(String[] args) {
         String[] habilidades = {"cavar", "salto olimpico", "voar"};
@@ -59,7 +63,10 @@ public class Main {
         Cadrado cadrado1 = new Cadrado(2. 1);
         System.out.println("Superficie cadrdao: " + cadrado1.aCadea());
         System.out.println("Perímetro do cadrado");
-        solido cubo = new solido() {
-        }
+        Cubo cubo = new solido() {}
+        Canguro nai = new Canguro("Mai", "13");
+        nai.desprazar();
+        nai.voz();
+
     }
 }

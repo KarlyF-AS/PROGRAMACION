@@ -1,6 +1,6 @@
-package src;
+package src.clase_abstracta_FiguraXeometricas;
 
-public abstract class FiguraXeometrica  extends PuntoBase{
+public abstract class FiguraXeometrica  extends PuntoBase {
     public FiguraXeometrica(){
         super ();
     }

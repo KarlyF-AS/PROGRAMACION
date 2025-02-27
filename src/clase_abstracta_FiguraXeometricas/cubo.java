@@ -1,4 +1,5 @@
-package src;
+package src.clase_abstracta_FiguraXeometricas;
+
 public abstract class cubo extends solido {
     private double lado;
 
@@ -22,6 +23,6 @@ public abstract class cubo extends solido {
         return Math.pow(lado, 3);  // Volumen = lado³
     }
     public String aCadea (){
-        return "CUbo de lado =" + lado + ", x=";
+        return "Cubo de lado =" + lado + ", x=";
     }
 }
