@@ -1,4 +1,4 @@
-package boletin9;
+package BOLETINES.src.boletin9;
 
 import java.sql.SQLOutput;
 
