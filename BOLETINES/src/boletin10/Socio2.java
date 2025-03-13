@@ -1,6 +1,6 @@
 package BOLETINES.src.boletin10;
 
-public abstract class Socio2 extends Miembro2{
+public class Socio2 extends Miembro2{
 
     private String direccion;
     private String provincia;
