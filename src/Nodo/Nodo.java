@@ -1,4 +1,4 @@
-package Nodo;
+package src.Nodo;
 
 public class Nodo {
     private int valor;

@@ -1,4 +1,4 @@
-package Nodo;
+package src.Nodo;
 
 public class lista2 {
     private Nodo nodoInicial;

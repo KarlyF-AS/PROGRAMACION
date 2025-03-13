@@ -1,17 +1,18 @@
 package src;
 
+import src.clase_abstracta_Animal.Can;
 import src.clase_abstracta_Animal.Canguro;
 import src.clase_abstracta_FiguraXeometricas.PuntoCentro;
 import src.clase_abstracta_FiguraXeometricas.solido;
-
+/*import src.Persoaxe;*/
 public class Main {
     public static void main(String[] args) {
-        String[] habilidades = {"cavar", "salto olimpico", "voar"};
+        String[] habilidades = {"cavar", "salto olimpico", "voar";
         String[] equipamentos = {"pala", "pertiga", "alas", "piedra", "pau", "verme", "serra"};
 
-        Persoaxe goku = new Persoaxe("Dolar", 2, 4, -15, 50, 21, "soldado", habilidades, equipamentos);
+      /*  Persoaxe goku = new Persoaxe("Dolar", 2, 4, -15, 50, 21, "soldado", habilidades, equipamentos);
         System.out.println("A velocidade de goku e : " + goku.getVelocidade()); //consulta a propiedade velocidade en Personaxe
-
+*/
 
         Punto p1 = new Punto(1, 7);
         Punto p2 = new Punto(-15); //como solo permite valores negativos lo iguala a 0
@@ -67,6 +68,10 @@ public class Main {
         Canguro nai = new Canguro("Mai", "13");
         nai.desprazar();
         nai.voz();
+
+        Can tobi = new Can("Tobi", 5);
+        tobi.ronroneo();
+        tobi.voz();
 
     }
 }
