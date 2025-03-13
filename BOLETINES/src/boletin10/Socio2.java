@@ -1,13 +1,13 @@
 package BOLETINES.src.boletin10;
 
-public class Socio extends Miembro implements CalculoGastosIngresos{
+public abstract class Socio2 extends Miembro2{
 
     private String direccion;
     private String provincia;
     private double cuota;
     private String dataAlta;
 
-    public Socio (String direccion, String provincia, double cuota, String dataAlta, String dni, String nome){
+    public Socio2(String direccion, String provincia, double cuota, String dataAlta, String dni, String nome){
         super(dni,nome);
         this.direccion = direccion;
         this.provincia = provincia;
@@ -50,11 +50,6 @@ public class Socio extends Miembro implements CalculoGastosIngresos{
 
     public String getDataAlta() {
         return dataAlta;
-    }
-
-    @Override
-    public double gastosIngresos() {
-        return cuota;
     }
 
     @Override

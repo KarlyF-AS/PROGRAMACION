@@ -1,12 +1,12 @@
 package BOLETINES.src.boletin10;
-public class Asalariado extends Trabajador implements CalculoGastosIngresos{
+public class Asalariado2 extends Trabajador2{
 
     private String cargo;
     private double soldo;
     private double ss;
     private double irpf;
 
-    public Asalariado (String cargo, double soldo, double ss, double irpf, String nome, String dni, String dataIngreso){
+    public Asalariado2(String cargo, double soldo, double ss, double irpf, String nome, String dni, String dataIngreso){
         super(nome, dni, dataIngreso);
         this.cargo = cargo;
         setSoldo(soldo);
@@ -50,7 +50,7 @@ public class Asalariado extends Trabajador implements CalculoGastosIngresos{
         return super.aCadea() + " con cargo " + cargo + ", sueldo " + soldo + ", SS " + ss + ", e IRPF " + irpf;
     }
 
-    @Override
+
     public double gastosIngresos() {
         return -soldo - (soldo*15/100);
     }

@@ -1,12 +1,12 @@
 package BOLETINES.src.boletin10;
 
-public class Voluntario extends Trabajador implements CalculoGastosIngresos{
+public class Voluntario2 extends Trabajador implements CalculoGastosIngresos2{
 
     private int idade;
     private String profesion;
     private double horas;
 
-    public Voluntario (int idade, String profesion, double horas, String direccion, String provincia, double cuota, String dataAlta, String dni, String nome){
+    public Voluntario2(int idade, String profesion, double horas, String direccion, String provincia, double cuota, String dataAlta, String dni, String nome){
         super(dni, nome,dataAlta);
         setIdade(idade);
         this.profesion = profesion;
