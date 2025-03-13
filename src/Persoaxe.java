@@ -1,4 +1,4 @@
-/*package src;
+package src;
 
 public class Persoaxe {
     private String nome;
@@ -89,4 +89,3 @@ public class Persoaxe {
         }
     }
 }
-*/
