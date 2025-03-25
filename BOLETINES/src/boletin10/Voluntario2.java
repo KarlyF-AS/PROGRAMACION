@@ -1,4 +1,4 @@
-package BOLETINES.src.boletin10;
+/*package BOLETINES.src.boletin10;
 
 public class Voluntario2 extends Trabajador implements CalculoGastosIngresos2{
 
@@ -47,4 +47,4 @@ public class Voluntario2 extends Trabajador implements CalculoGastosIngresos2{
     public double gastosIngresos() {
         return 3;
     }
-}
+}*/

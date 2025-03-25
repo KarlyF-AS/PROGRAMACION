@@ -33,6 +33,6 @@ public class Main {
         c1.setPGas(1.57);
 
         Consumo c2 = new Consumo(300, 40, 90, 1.50);
-        System.out.println("El consumo medio del c2 es de:" + c2.);
+        System.out.println("El consumo medio del c2 es de:" + c2);
     }
 }
