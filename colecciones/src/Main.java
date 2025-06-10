@@ -5,7 +5,7 @@ public class Main {
     System.out.println(num.extraer()); // Aqui imprimimos (extraemos) el valor del numero
 
     Contedor<String> cad = new Contedor<String>();
-        cad.gardar("Holisss");
+        cad.gardar("Olaaa");
         String c = cad.extraer();
         System.out.println(c); // Aqui un String (cadena)
 
@@ -28,7 +28,6 @@ public class Main {
         System.out.println(t.desapilar()); // Desapilamos el último elemento
         System.out.println(t.desapilar());
         System.out.println(t.desapilar());
-        System.out.println(t.desenconlar());
         System.out.println(t.desenconlar());
     }
 }
